@@ -118,17 +118,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Active: 1
   _event: 600
-  _solid: 0
-  _thickness: 0.001
+  _solid: 0.05
+  _thickness: 0.2
   _alphaCutout: 0.5
-  _mode: 0
+  _mode: 1
   _filter: 1
   _attachDepth: 1
   _output:
     enabled: 0
     value: _globalTex
   _solidMask:
-    _enabled: 0
+    _enabled: 1
     _pattern: {fileID: 2800000, guid: 41acea03acbaebe4a9dc26dd8264449e, type: 3}
     _scale: 50
     _velocity: {x: 0, y: 0}
