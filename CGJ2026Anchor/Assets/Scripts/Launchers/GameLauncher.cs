@@ -15,7 +15,12 @@ namespace Launchers
             var global = new Global();
             global.Reset();
             ServiceLocator.Register(global);
-            
+
+            var anchorGlobal = new AnchorGlobal();
+            anchorGlobal.Reset();
+            ServiceLocator.Register(anchorGlobal);
         }
+
+        
     }
 }
